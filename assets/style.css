@@ -1,6 +1,8 @@
 body {
   background-color: #f4f6f6;
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 h1,h3,h3,h4,h5,h6 {
@@ -12,9 +14,8 @@ h1,h3,h3,h4,h5,h6 {
 }
 
 nav{
-  margin: 0px;
-  margin-top: 10px;
-  width: auto;
+  background-color:#1c2938;
+  padding: 10px;
 }
 
 #container{
@@ -30,7 +31,7 @@ nav{
 }
 
 header {
-  color: black;
+  color: #cd3f3e;
   font-size: 71.1px;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
@@ -38,6 +39,9 @@ header {
 
 #photocontainer {
   text-align: center;
+  position: relative;
+  text-align: center;
+  color: white;
 }
 
 #mainphoto {
