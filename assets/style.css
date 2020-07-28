@@ -1,28 +1,37 @@
 body {
   background-color: #f4f6f6;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding: 0;
+  font-family: "Open Sans";
+  display: block;
 }
 
-h1,h3,h3,h4,h5,h6 {
-  font-family: "Helvetica", "Arial", sans-serif;
-  color: #ff0000;
+h1,
+h3,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open sans";
+  color: #cd3f3e;
+
 }
-#home{
+
+#home {
   color: #ff9c91;
 }
 
-nav{
-  background-color:#1c2938;
-  padding: 10px;
+#navbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #1c2938;
+  z-index: 1;
+  margin: 0;
+  padding: 8px;
+
 }
 
-#container{
-  justify-content: flex-end;
-}
-
-.links{
+.links {
   color: #cd3f3e;
   font-weight: bold;
   font-size: 30px;
@@ -57,16 +66,28 @@ header {
   transform: translate(-50%, -50%);
 }
 
+/* Navbar Links */
 a {
   color: white;
   text-decoration: none;
   text-transform: capitalize;
   font-weight: bold;
 }
-
-
-footer{
+/* Portfilio Images */
+#project-pictures {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  flex-shrink: 0;
   color: #1c2938;
-  font-weight: bold;
   text-align: center;
+  background-color: #cd3f3e;
+  margin: -8px;
+  border-bottom: 8px solid #1c2938;
+  padding: 5px
 }
