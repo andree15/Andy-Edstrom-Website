@@ -1,21 +1,23 @@
 body {
-  background-color: #f4f6f6;
+  background-color: #eeeeee;
   font-family: "Open Sans";
-  display: block;
 }
 
 h1,
 h3,
 h3,
-h4,
 h5,
 h6 {
-  font-family: "Open sans";
   color: #cd3f3e;
 
 }
 
-#home {
+h4, a{
+  color: #1c2938;
+}
+
+/* 'home' page */
+#andy {
   color: #ff9c91;
 }
 
@@ -40,7 +42,7 @@ h6 {
 }
 
 header {
-  color: #cd3f3e;
+  color: #1c2938;
   font-size: 71.1px;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
@@ -50,12 +52,12 @@ header {
   text-align: center;
   position: relative;
   text-align: center;
-  color: white;
 }
 
 #mainphoto {
   text-align: center;
   opacity: 30%;
+  max-width: 100%;
 }
 
 .centered {
@@ -68,7 +70,6 @@ header {
 
 /* Navbar Links */
 a {
-  color: white;
   text-decoration: none;
   text-transform: capitalize;
   font-weight: bold;
@@ -82,12 +83,19 @@ a {
 .content {
   flex: 1 0 auto;
 }
+
+#myinfo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .footer {
   flex-shrink: 0;
   color: #1c2938;
   text-align: center;
   background-color: #cd3f3e;
-  margin: -8px;
+  margin: 50px -8px 0px -8px;
   border-bottom: 8px solid #1c2938;
-  padding: 5px
+  padding: 5px;
 }
