@@ -12,8 +12,13 @@
 
     <!-- Navbar -->
     <nav id="navbox">
-        <a class="links" id="andy" href="">Andy</a>
-        <container id="container">
+        <!-- Logo -->
+        <div id="navleft">
+            <a class="links" id="andy" href="">Andy</a>
+        </div>
+
+        <!-- NavBar Links -->
+        <container id="navright">
             <a class="links" href="#about">About</a>
             <a class="links" href="#portfolio">Portfolio</a>
             <a class="links" href="#contact">Contact</a>
@@ -24,8 +29,9 @@
 
     <!-- Photo Container -->
     <div id="photocontainer">
-        <img id="mainphoto" src="./assets/images/computer-keyboard-clip-art-big-image-png-keyboard-clip-art-2400_2400.png" alt="JS">
-        <header class="centered">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</header>
+        <img id="mainphoto"
+            src="./assets/images/computer-keyboard-clip-art-big-image-png-keyboard-clip-art-2400_2400.png" alt="JS">
+        <header class="centered">Andy Edstrom</header>
     </div>
     <!-- Photo Container -->
 
@@ -38,7 +44,7 @@
             <h1 id="about">About</h1>
         </container>
         <h4>About Me</h4>
-        <container id="about-text">
+        <container id="abouttext">
             <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna aliqua. Sit amet commodo nulla facilisi nullam vehicula ipsum a. In mollis nunc sed id
                 semper
@@ -55,17 +61,28 @@
         <container>
             <h1 id="portfolio">Portfolio</h1>
         </container>
-        <h4>GitHub</h4>
         <div id="project-pictures">
-            <img id="" src="./assets/images/placeholder.png" href="">
-            <img id="" src="./assets/images/placeholder.png" href="">
-            <img id="" src="./assets/images/placeholder.png" href="">
-            <img id="" src="./assets/images/placeholder.png" href="">
+            <a target="blank" href="https://andree15.github.io/Word-Guess-Game/">
+                <img class="pictures" src="./assets/images/javascript-736400_640.png">
+                <div class="portfolio-text">Simple JS Letter Guess Game</div>
+            </a>
+            <a target="blank" href="https://pet-pawtners.herokuapp.com/">
+                <img class="pictures" src="./assets/images/paw-print.png">
+                <div class="portfolio-text">Pet Swap</div>
+            </a>
+            <a target="blank" href="https://andree15.github.io/Space_Travel_App/">
+                <img class="pictures" src="./assets/images/earth.png">
+                <div class="portfolio-text">Space Travel App</div>
+            </a>
+
+
         </div>
         <!-- Portfolio -->
+        <br>
+        <hr id="break">
 
-        <!-- Contact -->
-        <container id="myinfo">
+        <container class="myinfo">
+            <!-- Contact -->
             <div>
                 <h1 id="contact">Contact</h1>
                 <h4>Phone</h4>
@@ -79,11 +96,14 @@
             <div>
                 <h1 id="social">Social</h1>
 
-                <a href='https://www.linkedin.com/in/andy-edstrom-783802138/'>LinkedIn</h4>
+                <a target="blank" href='https://www.linkedin.com/in/andy-edstrom-783802138/'>LinkedIn
+                </a>
+                <br>
+                <a href="https://github.com/andree15">GitHub</a>
             </div>
             <!-- Social -->
         </container>
-        
+
     </div>
 
     <footer class="footer">Andy Edstrom</footer>
