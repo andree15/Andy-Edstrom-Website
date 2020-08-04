@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Andy Edstrom</title>
 </head>
 
@@ -14,7 +15,7 @@
     <nav id="navbox">
         <!-- Logo -->
         <div id="navleft">
-            <a class="links" id="andy" href="">Andy</a>
+            <a class="links" id="andy" href="/index.html">Andy</a>
         </div>
 
         <!-- NavBar Links -->
@@ -40,22 +41,29 @@
     <div class="content">
 
         <!-- About -->
-        <container>
-            <h1 id="about">About</h1>
-        </container>
-        <h4>About Me</h4>
-        <container id="abouttext">
-            <div>Junior Web-Devoloper. Check out my portfolio for some of my prject work. Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Sit amet commodo nulla facilisi nullam vehicula ipsum a. In mollis nunc sed id
-                semper
-                risus in hendrerit. Ac turpis egestas integer eget aliquet nibh praesent tristique. Nunc faucibus a
-                pellentesque sit amet porttitor eget dolor. Etiam tempor orci eu lobortis elementum nibh tellus. Risus
-                in
-                hendrerit gravida rutrum quisque. Massa enim nec dui nunc mattis. Orci phasellus egestas tellus rutrum
-                tellus pellentesque. Pulvinar etiam non quam lacus suspendisse faucibus interdum.
-            </div>
-        </container>
+        
+            <container>
+                <h1 id="about">About</h1>
+            </container>
+        <div id="about-section">
+            <img id="my-picture" src="assets/images/20819153_10155086293223425_4627953392405322799_o2.jpeg">
+            <container id="biography">
+                Junior Web-Developer. Check out my portfolio for some of my project work. Lorem ipsum dolor sit
+                    amet,
+                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Sit amet commodo nulla facilisi nullam vehicula ipsum a. In mollis nunc sed id
+                    semper
+                    risus in hendrerit. Ac turpis egestas integer eget aliquet nibh praesent tristique. Nunc faucibus a
+                    pellentesque sit amet porttitor eget dolor. Etiam tempor orci eu lobortis elementum nibh tellus.
+                    Risus
+                    in
+                    hendrerit gravida rutrum quisque. Massa enim nec dui nunc mattis. Orci phasellus egestas tellus
+                    rutrum
+                    tellus pellentesque. Pulvinar etiam non quam lacus suspendisse faucibus interdum.
+            </container>
+
+            
+        </div>
         <!-- About -->
 
         <!-- Portfolio -->
@@ -69,9 +77,9 @@
                 <div>
                     <a target="blank" href="https://andree15.github.io/Word-Guess-Game/">
                         <img class="pictures" src="./assets/images/javascript-736400_640.png">
-                        <div class="portfolio-text">Simple JS Letter Guess Game</div>
+                        <div class="portfolio-text">Simple JS Game</div>
                     </a>
-                    <a href="https://github.com/andree15/Pet-Swap" target="blank">GitHub</a>
+                    <a class="github-text" href="https://github.com/andree15/Pet-Swap" target="blank">GitHub</a>
                 </div>
             <!-- Simple JS Game -->
 
@@ -82,7 +90,7 @@
                         <div
                         class="portfolio-text">Pet Swap</div>
                     </a>
-                    <a href="https://github.com/andree15/Pet-Swap" target="blank">GitHub</a>
+                    <a class="github-text" href="https://github.com/andree15/Pet-Swap" target="blank">GitHub</a>
                 </div>
             <!-- Pet Swap -->
 
@@ -92,41 +100,53 @@
                         <img class="pictures" src="./assets/images/earth.png">
                         <div class="portfolio-text">Space Travel App</div>
                     </a>
-                    <a href="https://github.com/andree15/Space_Travel_App" target="blank">GitHub</a>
+                    <a class="github-text" href="https://github.com/andree15/Space_Travel_App" target="blank">GitHub</a>
                 </div>
             <!-- Space Travel App -->
 
         </div>
         <!-- Portfolio -->
+
         <br>
-        <hr class="break">
+        <hr class="break" id="main-break">
 
         <container class="myinfo">
+
             <!-- Contact -->
             <div>
                 <h1 id="contact">Contact</h1>
-                <h4>Phone</h4>
-                <div>(616) 990-7400</div>
-                <h4>Email</h4>
-                <div>andyedstrom115@gmail.com</div>
+
+                <div id="contact-info">
+                    <h4>Phone</h4>
+                    <div>(616) 990-7400</div>
+                    <h4>Email</h4>
+                    <div>andyedstrom115@gmail.com</div>
+                </div>
             </div>
             <!-- Contact -->
 
             <!-- Social -->
             <div>
-                <h1 id="social">Social</h1>
+                <h1>Social</h1>
 
                 <a target="blank" href='https://www.linkedin.com/in/andy-edstrom-783802138/'>
                     LinkedIn
                 </a>
                 <br>
-                <hr>
+                <br>
+                <hr class="break">
+                <br>
                 <a href="https://github.com/andree15">
                     GitHub</a>
+                <br>
+                <br>
+                <hr class="break">
+                <br>
+                <a href="/assets/andrew-edstrom-resume.pdf" download>Resume</a>
             </div>
             <!-- Social -->
-        </container>
 
+        </container>
     </div>
 
     <footer class="footer">Andy Edstrom</footer>

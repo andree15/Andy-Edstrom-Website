@@ -1,21 +1,27 @@
 body {
-  background-color: #eeeeee;
+  background-image: url("../images/interlaced.png");
   font-family: "Open Sans";
   margin-left: 100px;
   margin-right: 100px;
 }
 
-h1,
-h3,
-h3,
-h5,
-h6 {
+h1{
   color: #cd3f3e;
-
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  letter-spacing: 3px;
 }
 
-h4, a{
+h2,h3,h5,h6 {
+  color: #cd3f3e;
+}
+
+h4{
   color: #1c2938;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 /* Container for entire navbar */
@@ -27,20 +33,19 @@ h4, a{
   background-color: #1c2938;
   z-index: 1;
   margin: 0;
-  padding: 8px;
+  padding: 14px;
 }
 
 /* Andy Link */
 #navleft {
   float: left;
 }
-
 #andy {
   color: #ff9c91;
   margin-left: 100px;
 }
 
-/* Container for NavBar Links */
+/* Container for the right pos NavBar Links */
 #navright{
   float: right;
   margin-right: 100px;
@@ -49,9 +54,10 @@ h4, a{
 /* NavBar Links */
 .links {
   color: #cd3f3e;
-  font-size: 30px;
-  margin-left: 15px;
+  font-size: 25px;
+  margin-left: 20px;
   text-decoration: none;
+  letter-spacing: 3px;
 }
 
 /* Container for Photo and Text on Photo */
@@ -78,6 +84,24 @@ h4, a{
   font-size: 71.1px;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
+  letter-spacing: 13px;
+}
+
+#about-section{
+  display: flex;
+  flex-direction: row;
+}
+
+/* Headshot */
+#my-picture{
+  max-width: 300px;
+  margin: 20px;}
+
+/* Biography */
+#biography{
+  margin: 10px;
+  line-height: 2.5;
+  padding: 15px;
 }
 
 /* Portfilio Images */
@@ -91,25 +115,52 @@ h4, a{
 /* Portfolio Pictures */
 .pictures{
   max-width: 300px;
+  margin: 20px;
 }
 
-.row {
-  text-align: center;
+/* Project Titles */
+.portfolio-text{
+  margin: 20px;
+  font-size: 25px;
 }
 
-#class{
-  border: .5px solid #1c2938;
+/* Github Link */
+.github-text{
+  font-family: 'Courier New', Courier, monospace;
 }
 
+/* Break Under Portfolio */
+#main-break{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+/* Contact and Social sections */
 .myinfo{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
 
+/* Phone # and Email */
+#contact-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  line-height: 2;
+}
+
+/* Breaks in 'Social' Section */
+.break{
+  height:1px;
+  background-color: #1c2938;
+  border: none;
+}
+
+/* Footer */
 .footer {
   flex-shrink: 0;
-  color: #1c2938;
+  color: rgb(173, 173, 173);
   text-align: center;
   background-color: #cd3f3e;
   margin: 50px -8px 0px -8px;
@@ -118,6 +169,10 @@ h4, a{
   width: 100%;
 }
 
+/* Anything with an <a>tag<a> */
 a{
   text-decoration: none;
+  color: #1c2938;
 }
+
+
