@@ -26,7 +26,7 @@ h4{
 }
 
 /* Container for entire navbar */
-#navbox {
+#navbar {
   position: fixed;
   top: 0;
   left: 0;
@@ -38,10 +38,10 @@ h4{
 }
 
 /* Andy Link */
-#navleft {
+#nav-left {
   float: left;
 }
-#andy {
+#logo {
   color: #ff9c91;
   margin-left: 100px;
   transition: .5s;
@@ -49,7 +49,7 @@ h4{
 #andy:hover{color:white;
 transition: .5s;}
 
-/* Container for the right pos NavBar Links */
+/* Container for the right position NavBar Links */
 #nav-right{
   float: right;
   margin-right: 100px;
@@ -71,12 +71,12 @@ transition: .5s;}
 }
 
 /* Container for Photo and Text on Photo */
-#photocontainer {
+#photo-container {
   text-align: center;
   position: relative;
 }
 
-#mainphoto {
+#main-photo {
   text-align: center;
   opacity: 30%;
   max-width: 100%;
@@ -103,13 +103,14 @@ transition: .5s;}
   align-items: flex-start;
 }
 
-#headshot-container{
+/* Head Shot Container */
+#head-shot{
   text-align: center;
   max-width: 100%;
   margin-top: 30px;
 }
 
-/* Headshot */
+/* Head Shot */
 #my-picture{
   max-width: 300px;
   max-height: 100%;
@@ -123,7 +124,7 @@ transition: .5s;}
   padding: 15px;
 }
 
-/* Portfilio Images Container */
+/* Portfolio Images Container */
 .project-pictures {
   display: flex;
   flex-direction: row;
@@ -161,7 +162,7 @@ transition: .5s;}
 }
 
 /* Contact and Social sections */
-.myinfo{
+.my-info{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -230,7 +231,7 @@ a{
     text-align: center;
   }
 
-  #navbox{
+  #navbar{
     max-width: 640px;
     text-align: center;
     position: fixed;
@@ -248,13 +249,13 @@ a{
     margin: 0;
     text-align: center;
   }
-  #photocontainer {
+  #photo-container {
     margin-top: 30px;
     text-align: center;
     position: relative;
   }
   
-  #mainphoto {
+  #main-photo {
     text-align: center;
     opacity: 30%;
     margin-top: 30px;
