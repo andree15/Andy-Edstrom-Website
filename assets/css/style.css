@@ -236,6 +236,7 @@ a{
     width: 100%;
     background-image: none;
     text-align: center;
+    content: center;
   }
 
   #navbar{
@@ -256,6 +257,10 @@ a{
     margin: 0;
     text-align: center;
   }
+a#logo.links{
+  margin:0;
+}
+
   #photo-container {
     margin-top: 30px;
     text-align: center;
@@ -290,6 +295,10 @@ a{
   .project-pictures{
     flex-flow: column;
   }
+
+.row{
+  flex-direction: column;
+}
 
   .pictures{
     width: 100%;
