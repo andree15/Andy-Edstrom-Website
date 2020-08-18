@@ -127,9 +127,16 @@ transition: .5s;}
 /* Portfolio Images Container */
 .project-pictures {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   text-align: center;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
 }
 
 /* Portfolio Pictures */
